@@ -9,9 +9,10 @@ keywords:
 - Graph
 - GraphQL
 - nosql
-home: https://dgraph.io/
+home: https://prashant-shahi.github.io/charts
 sources:
-- https://github.com/dgraph-io/dgraph
+- https://github.com/prashant-shahi/dgraph
+- https://github.com/prashant-shahi/charts
 maintainers:
 - name: dgraph
   email: contact@dgraph.io
