@@ -5,6 +5,9 @@ jobs:
       - image: alpine
     steps:
       - checkout
+      - add_ssh_keys:
+        fingerprints:
+          - "13:25:eb:34:1d:8c:c4:a2:c4:e3:11:31:2b:b9:29:06"
       - run:
           name: helm-pages
           command: cat publish.sh | sh
